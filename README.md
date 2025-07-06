@@ -76,10 +76,8 @@ Follow these steps to get your own WikiBio Guesser running on your local machine
 
 ### Running the App
 
-1.  **Prepare the `names.json` file:**
-    This project relies on a `names.json` file containing a list of Wikipedia article titles (e.g., famous people, places, concepts) that the game will use.
-    * Create a file named `names.json` in the root directory of your project.
-    * Populate it with a JSON array of strings. Each string should be an exact Wikipedia article title.
+1.  **The `names.json` file:**
+    This game relies on a `names.json` file containing a list of Wikipedia article titles (e.g., famous people, places, concepts) that the game will use.
     * **Example `names.json` content:**
         ```json
         [
